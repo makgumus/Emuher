@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Emuher.Models.Model>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Modellerimiz</h2>
+
+<p>
+    @Html.ActionLink("Yeni Oluştur", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Marka.MarkaAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ModelAdi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Marka.MarkaAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ModelAdi)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id=item.ModelID }) |
+            @Html.ActionLink("Sil", "Delete", new { id=item.ModelID })
+        </td>
+    </tr>
+}
+
+</table>

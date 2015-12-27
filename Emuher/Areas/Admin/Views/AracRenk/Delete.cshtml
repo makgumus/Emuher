@@ -1,0 +1,40 @@
+﻿@model Emuher.Models.AracRenk
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Aşağıdaki kaydı silmek istediğine emin misin?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Model.ModelAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Model.ModelAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Renk.RenkAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Renk.RenkAdi)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Admin Paneline Dön", "Index")
+        </div>
+    }
+</div>

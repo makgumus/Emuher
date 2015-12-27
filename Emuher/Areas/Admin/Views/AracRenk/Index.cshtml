@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Emuher.Models.AracRenk>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Model Renkleri</h2>
+
+<p>
+    @Html.ActionLink("Yeni Oluştur", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Model.ModelAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Renk.RenkAdi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Model.ModelAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Renk.RenkAdi)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id=item.AracRenkID }) |
+            @Html.ActionLink("Sil", "Delete", new { id=item.AracRenkID })
+        </td>
+    </tr>
+}
+
+</table>

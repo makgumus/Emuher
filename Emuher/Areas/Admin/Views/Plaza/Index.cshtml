@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Emuher.Models.Plaza>
+
+@{
+    ViewBag.Title = "Plaza";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Kayıtlı Plazalar</h2>
+
+<p>
+    @Html.ActionLink("Yeni Oluştur", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PlazaAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlazaAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adres)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id=item.PlazaID }) |
+            @Html.ActionLink("Detaylar", "Details", new { id=item.PlazaID }) |
+            @Html.ActionLink("Sil", "Delete", new { id=item.PlazaID })
+        </td>
+    </tr>
+}
+
+</table>

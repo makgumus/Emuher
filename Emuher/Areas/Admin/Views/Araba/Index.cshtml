@@ -1,0 +1,64 @@
+﻿@model  IEnumerable<Emuher.Models.Araba>
+@*@model PagedList.IPagedList<Emuher.Models.Araba>*@
+@using PagedList.Mvc;
+@using PagedList;
+@{
+    ViewBag.Title = "Araba";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Kayıtlı Arabalar</h2>
+<p>
+    @Html.ActionLink("Yeni Oluştur", "Create")
+</p>
+<div class="row">
+    <div class="col-md-12">
+        <!-- Advanced Tables -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            </div>
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                        <thead>
+                            <tr>
+                                <th>Resim</th>
+                                <th>Marka</th>
+                                <th>Model Adı</th>
+                                <th>Fiyat</th>
+                                <th>Kilometre</th>
+                                <th>Şanzıman Tipi</th>
+                                <th>Yakıt Tipi</th>
+                                <th>Gövde Tipi</th>
+                                <th>Motor Gücü</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr class="odd gradeX">
+                                    <td><center><img class="img-thumbnail" style="width:100px;height:50px;" src=@Href(Html.DisplayFor(model => item.Resim).ToString()) alt=@Html.DisplayFor(modelItem => item.Model.ModelAdi) /></center></td>
+                                    <td>@Html.DisplayFor(modelItem => item.Model.Marka.MarkaAdi)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Model.ModelAdi)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Fiyat) TL</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Kilometre) KM</td>
+                                    <td>@Html.DisplayFor(modelItem => item.SanzimanTipi)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.YakitTipi)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.GovdeTipi)</td>
+                                    <td class="center">@Html.DisplayFor(modelItem => item.MotorGucu)</td>
+                                    <td>
+                                        @Html.ActionLink("Düzenle", "Edit", new { id = item.ArabaID }) |
+                                        @Html.ActionLink("Detaylar", "Details", new { id = item.ArabaID }) |
+                                        @Html.ActionLink("Sil", "Delete", new { id = item.ArabaID })
+                                    </td>
+                                </tr>
+                            }
+                            
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <!--End Advanced Tables -->
+    </div>
+</div>

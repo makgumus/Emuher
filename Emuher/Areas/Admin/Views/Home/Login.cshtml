@@ -1,0 +1,48 @@
+﻿@model Emuher.Models.Admin
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Admin </h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+           
+            <div class="col-md-10">
+                @Resources.lang.kullaniciadi
+                <div class="offset-2">
+                    @Html.TextBox("userName", null, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.KullaniciAdi, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+        </div>
+
+        <div class="form-group">
+            
+            <div class="col-md-10">
+                @Resources.lang.sifre
+                <div class="offset-2">
+                @Html.Password("passWord",null, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Sifre, "", new { @class = "text-danger" })
+                    </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value=@Resources.lang.girisyap class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink(Resources.lang.anasayfayadon, "Index")
+</div>

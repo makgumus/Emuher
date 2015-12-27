@@ -1,0 +1,164 @@
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\csc.exe
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\vbc.exe
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\VBCSCompiler.exe
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Emuher.dll.config
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Emuher.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Emuher.pdb
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Antlr3.Runtime.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\EntityFramework.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\EntityFramework.SqlServer.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Newtonsoft.Json.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Owin.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.Helpers.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.Mvc.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.Optimization.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.Razor.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.WebPages.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.WebPages.Razor.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\WebGrease.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.Helpers.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.Mvc.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.Optimization.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.Razor.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.WebPages.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\System.Web.WebPages.Razor.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Antlr3.Runtime.pdb
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Newtonsoft.Json.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\EntityFramework.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\EntityFramework.SqlServer.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\obj\Debug\Emuher.dll
+C:\Users\ERKAN\Desktop\Emuher\Emuher\obj\Debug\Emuher.pdb
+C:\Users\ERKAN\Desktop\emuher\Emuher\bin\PagedList.dll
+C:\Users\ERKAN\Desktop\emuher\Emuher\bin\PagedList.Mvc.dll
+C:\Users\ERKAN\Desktop\emuher\Emuher\bin\PagedList.xml
+C:\Users\ERKAN\Desktop\emuher\Emuher\bin\PagedList.Mvc.xml
+C:\Users\ERKAN\Desktop\Emuher\Emuher\obj\Debug\Emuher.csprojResolveAssemblyReference.cache
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\Emuher.csprojResolveAssemblyReference.cache
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\Emuher.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\Emuher.pdb
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\csc.exe
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\vbc.exe
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\VBCSCompiler.exe
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Emuher.dll.config
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Emuher.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Emuher.pdb
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Antlr3.Runtime.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\EntityFramework.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\EntityFramework.SqlServer.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Threading.Tasks.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Newtonsoft.Json.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Owin.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\PagedList.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\PagedList.Mvc.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.Helpers.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.Mvc.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.Optimization.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.Razor.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.WebPages.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.WebPages.Razor.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\WebGrease.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Threading.Tasks.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\PagedList.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\PagedList.Mvc.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.Helpers.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.Mvc.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.Optimization.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.Razor.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.WebPages.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\System.Web.WebPages.Razor.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Antlr3.Runtime.pdb
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Newtonsoft.Json.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\EntityFramework.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\EntityFramework.SqlServer.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\en\Emuher.resources.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\tr\Emuher.resources.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\Emuher.Resources.lang.resources
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\Emuher.Resources.lang.en.resources
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\Emuher.Resources.lang.tr.resources
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\Emuher.csproj.GenerateResource.Cache
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\en\Emuher.resources.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\obj\Debug\tr\Emuher.resources.dll
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Resources\lang.resx
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Resources\lang.en.resx
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Resources\lang.tr.resx
+C:\Users\MUHAMMED PC\Documents\Visual Studio 2015\Projects\Emuher\Emuher\bin\Resources\lang.Designer.cs

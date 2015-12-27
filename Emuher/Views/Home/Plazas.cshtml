@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Emuher.Models.Plaza>
+@{
+    ViewBag.Title = ViewBag.baslik2; ;
+}
+<!-- Page Header -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">
+            @ViewBag.baslik
+            <small>@ViewBag.baslik2</small>
+        </h1>
+       
+    </div>
+    <div class="col-lg-6">
+        @foreach (var item in Model)
+        {
+            <address>
+                <b> @Html.DisplayFor(modelItem => item.PlazaAdi)<br /><br />@Resources.lang.adres:</b><br />
+                @Html.DisplayFor(modelItem => item.Adres)<br />
+                <b>@Resources.lang.telefon:</b> @Html.DisplayFor(modelItem => item.Telefon)
+            </address>
+
+            <address>
+                <strong>@Resources.lang.email:</strong>   <a href="mailto:@Html.DisplayFor(modelItem=>item.Email).ToString()">@Html.DisplayFor(modelItem => item.Email)</a><br />
+                <strong>@Resources.lang.genelmerkezdestek:</strong> <a href="mailto:marketing@emuher.com">marketing@emuher.com</a>
+            </address>
+            <br /><br />
+        }
+    </div>
+    <div class="col-lg-6">
+        <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=z7tOXuqNt4Lo.ki_oJJ1ZoENw" width="640" height="480"></iframe>
+    </div>
+</div>
+
+
+
+

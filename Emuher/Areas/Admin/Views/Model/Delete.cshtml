@@ -1,0 +1,40 @@
+﻿@model Emuher.Models.Model
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Kaydı Sil</h2>
+
+<h3>Aşağıdaki kaydı silmek istediğine emin misin?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Marka.MarkaAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marka.MarkaAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModelAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModelAdi)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Admin Paneline Dön", "Index")
+        </div>
+    }
+</div>

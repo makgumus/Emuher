@@ -1,0 +1,46 @@
+﻿@model Emuher.Models.Araba
+
+@{
+    ViewBag.Title = Resources.lang.detaylar;
+}
+
+<h2>@Resources.lang.arabadetayları</h2>
+<br />
+<div class="col-md-12">
+   <table class="table table-hover">
+       <tr><td colspan="2"><center><img style="width:750px;height:450px;" class="img-thumbnail" src=@Href(Html.DisplayFor(model=>model.Resim).ToString()) alt=@Html.DisplayFor(modelItem => modelItem.Model.ModelAdi) /></center></td></tr>
+       <tr>
+           <td colspan="2"><center><h3><b>@Html.DisplayFor(model => model.Model.Marka.MarkaAdi) @Html.DisplayFor(model => model.Model.ModelAdi)</b></h3></center></td>
+       </tr>
+       <tr>
+           <td class="col-md-3"><b>@Resources.lang.fiyat:</b></td>
+           <td>@Html.DisplayFor(model => model.Fiyat) TL</td>
+       </tr>
+       <tr>
+           <td><b>@Resources.lang.kilometre:</b></td>
+           <td>@Html.DisplayFor(model => model.Kilometre)</td>
+       </tr>
+       <tr>
+           <td><b>@Resources.lang.sanzimantipi:</b></td>
+           <td>@Html.DisplayFor(model => model.SanzimanTipi)</td>
+       </tr>
+       <tr>
+           <td><b>@Resources.lang.yakittipi:</b></td>
+           <td>@Html.DisplayFor(model => model.YakitTipi)</td>
+       </tr>
+       <tr>
+           <td><b>@Resources.lang.govdetipi:</b></td>
+           <td>@Html.DisplayFor(model => model.GovdeTipi)</td>
+       </tr>
+       <tr>
+           <td><b>@Resources.lang.motorgucu:</b></td>
+           <td>@Html.DisplayFor(model => model.MotorGucu)</td>
+       </tr>
+ 
+
+   </table>
+    <p>
+        @Html.ActionLink(Resources.lang.anasayfayadon, "Index")
+    </p>
+</div>
+

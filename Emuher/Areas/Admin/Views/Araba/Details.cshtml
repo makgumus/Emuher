@@ -1,0 +1,53 @@
+﻿@model Emuher.Models.Araba
+@{
+    ViewBag.Title = "Detaylar";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Araba Detayları</h2>
+<br />
+<div class="col-md-12">
+    <table class="table table-hover">
+        <tr><td colspan="2"><center><img style="width:750px;height:450px;" class="img-thumbnail" src=@Href(Html.DisplayFor(model=>model.Resim).ToString()) alt=@Html.DisplayFor(modelItem => modelItem.Model.ModelAdi) /></center></td></tr>
+        <tr>
+            <td colspan="2"><center><h3><b>@Html.DisplayFor(model => model.Model.Marka.MarkaAdi) @Html.DisplayFor(model => model.Model.ModelAdi)</b></h3></center></td>
+        </tr>
+        <tr>
+            <td class="col-md-3"><b>@Html.DisplayNameFor(model => model.Fiyat):</b></td>
+            <td>@Html.DisplayFor(model => model.Fiyat)</td>
+        </tr>
+        <tr>
+            <td><b>@Html.DisplayNameFor(model => model.Kilometre):</b></td>
+            <td>@Html.DisplayFor(model => model.Kilometre)</td>
+        </tr>
+        <tr>
+            <td><b>@Html.DisplayNameFor(model => model.SanzimanTipi):</b></td>
+            <td>@Html.DisplayFor(model => model.SanzimanTipi)</td>
+        </tr>
+        <tr>
+            <td><b>@Html.DisplayNameFor(model => model.YakitTipi):</b></td>
+            <td>@Html.DisplayFor(model => model.YakitTipi)</td>
+        </tr>
+        <tr>
+            <td><b>@Html.DisplayNameFor(model => model.GovdeTipi):</b></td>
+            <td>@Html.DisplayFor(model => model.GovdeTipi)</td>
+        </tr>
+        <tr>
+            <td><b>@Html.DisplayNameFor(model => model.MotorGucu):</b></td>
+            <td>@Html.DisplayFor(model => model.MotorGucu)</td>
+        </tr>
+        <tr>
+            <td><b>Bulunduğu Plazalar:</b></td>
+            <td>@Html.DisplayFor(model => model.Fiyat)</td>
+        </tr>
+        <tr>
+            <td><b>Renk Seçenekleri:</b></td>
+            <td>@Html.DisplayFor(model => model.Fiyat)</td>
+        </tr>
+    </table>
+    <p>
+        @Html.ActionLink("Arabayı Düzenle", "Edit", new { id = Model.ArabaID }) |
+        @Html.ActionLink("Admin Paneline Dön", "Index")
+    </p>
+</div>
+

@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Admin";
+}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Paneli - EMUHER</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/assets/css")
+
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body style="padding:0;">
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Index">Emuher Admin</a>
+            </div>
+            <div style="color: white;
+padding: 15px 50px 5px 50px;
+float: right;
+font-size: 16px;">Son Erişim :@DateTime.Now&nbsp;<a href="Home/Logout" class="btn btn-danger square-btn-adjust">Çıkış</a></div>
+</nav>
+<!-- /. NAV TOP  -->
+<nav class="navbar-default navbar-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="main-menu">
+            <li class="text-center">
+                <img src="/assets/img/find_user.png" class="user-image img-responsive" />
+            </li>
+
+
+            <li>
+                <a class=@ViewBag.aktif0 href="/Index"><i class="fa fa-dashboard fa-3x"></i> Gösterge Paneli</a>
+            </li>
+            <li>
+                <a class=@ViewBag.aktif1 href="/Admin/Araba"><i class="fa fa-bar-chart-o fa-3x"></i> Arabalar</a>
+            </li>
+            <li>
+                <a class=@ViewBag.aktif2 href="/Admin/Musteri"><i class="fa fa-bar-chart-o fa-3x"></i> Müşteriler</a>
+            </li>
+            <li>
+                <a class=@ViewBag.aktif3 href="/Admin/Plaza"><i class="fa fa-table fa-3x"></i> Plazalar</a>
+            </li>
+            <li>
+                <a class=@ViewBag.aktif4 href="/Admin/Marka"><i class="fa fa-desktop fa-3x"></i> Markalar</a>
+            </li>
+            <li>
+                <a class=@ViewBag.aktif5 href="/Admin/Model"><i class="fa fa-qrcode fa-3x"></i> Modeller</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+<!-- /. NAV SIDE  -->
+<div id="page-wrapper">@RenderBody()</div>
+<!-- /. PAGE WRAPPER  -->
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/assets/js")
+@RenderSection("scripts", required: false)
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Emuher.Models.Renk>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Araç Renk Seçenekleri</h2>
+
+<p>
+    @Html.ActionLink("Yeni Oluştur", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RenkAdi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RenkAdi)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id=item.RenkID }) |
+            @Html.ActionLink("Sil", "Delete", new { id=item.RenkID })
+        </td>
+    </tr>
+}
+
+</table>
